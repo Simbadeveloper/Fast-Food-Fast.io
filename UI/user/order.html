@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--Head section -->
+<head>
+	<title>User Order Page</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script language="javascript" type="text/javascript"></script>
+</head>
+<!--Header section-->
+  <header class="header">
+   <nav>
+     <a href="userpage.html">USER ACCOUNT</a> |
+     <a href="login.html">LOGOUT</a>|
+</nav>
+</header>
+<!--Body section-->
+<body>
+<!--Form section-->
+<div class="container">
+ <h1>MAKE AN ORDER</h1>
+ <form  id="form">
+ 	 <label for="username">Username:</label>
+      <strong><abbr title="required">*</abbr></strong>
+      <input type="text" id="username" name="username" placeholder="please enter you username" autofocus required /><br><br>
+       <label for="foodtype">Type of food:</label>
+      <select id="footype" name="foodtype">
+        <option value="maincourse">Main course</option>
+        <option value="ff">Fast Food</option>
+        <option value="db">Drinks&Beverages</option>
+      </select><br><br>
+       <label for="Quantity">Quantity:</label>
+      <input type="number" id="foodquantity" name="foodq" placeholder="please enter the Quantity you" autofocus required /><br><br>
+       <label for="Amount">Amount:</label>
+      <input type="text" id="foodprice" name="foodp" placeholder="please enter the amount" autofocus required /><br><br>
+       <label for="Service">Type of service:</label>
+       <select id="service" name="service">
+        <option value="maincourse">Take Away</option>
+        <option value="ff">Delivery</option>
+        <option value="db">Onsite</option></select>
+        <br><br>
+      <input type="submit" name="submit" value="submit">
+ </form>
+</div>
+<!--Footer section-->
+<footer></footer>
+</body>
+</html>
