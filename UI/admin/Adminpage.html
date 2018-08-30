@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+     <script language="javascript" type="text/javascript"></script>
+  </head>
+  <header class="header">
+    <nav>
+     <a href="index.html">HOME</a>|
+     <a href="userpagee.html">ORDERS</a>|
+     <a href="approval.html">REQUESTS</a>|
+     <a href="Aboutus.html">ABOUT US</a>|
+     <a href="login.html">LOGOUT</a>
+</nav>
+</header>
+    <script>
+      <!--
+        document.write("<h1>WELCOME TO FAST-FOOD-FAST DASHBOARD ADMIN</h1>")
+       //--> 
+    </script>
+    <!--Body section-->
+  </body>
+<section>
+    <div class="container">
+      <h2>FOOD-ITEM-LIST</h2>
+      <!--Form section-->
+      <form id="form"> 
+        <div>
+        <table id="table" border="4">
+               <tr border="2">
+                    <th>Food Type</th>
+                    <th>Name of the food</th>
+                    <th>Stock</th>
+                    <th>sold</th>
+                    <th>Balance</th>
+               </tr>
+                <tr border="2">
+                    <td>Drink</td>
+                    <td>fanta</td>
+                    <td>3 creates</td>
+                    <td>2 creates</td>
+                    <td>1 create</td>
+                </tr>
+         </table>
+    </div><br><br>
+    Food Type:<input type="text" id="foodtype" name="foodtype" placeholder="Enter food type"><br><br>
+    Name of Food:<input type="text" id="namefood" food" name="namefood" placeholder="Enter name of food type"><br><br>
+    Stock:<input type="number" id="stock" name="stock" placeholder="Enter the stock here"><br><br>
+    Sold:<input type="number" id="sold" name="sold" placeholder="Enter amount of stock sold"><br><br>
+    Balance:<input type="number" id="balance" name="balance" placeholder="Enter the amount of stock remaining"><br><br>
+
+    <button onclick="removeHTMLTableRow()">Delete</button>|
+    <Button onclick="editHTMLTableSelectedRow()">Edit</Button>|
+    <button onclick="addHTMLTableRow()">Add</button>
+<script>
+<!--
+function removeHTMLTableRow() {
+alert("successful removed")
+}
+
+function editHTMLTableSelectedRow() {
+alert("successful edit")
+}
+
+function addHTMLTableRow() {
+alert("successful added")
+}
+
+//-->
+</script>
+  </form>
+  <!--Footer section-->
+  <footer></footer>
+  </body>
+</html>
