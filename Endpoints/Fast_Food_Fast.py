@@ -53,6 +53,7 @@ def login():
     email = data["email"]
     password = data["password"]
     if user_details["username"] == username:
+        session["username"]=username["username"]
         if user_details["email"] == email:
             if user_details["password"] == password:
                 return jsonify({"message":"logged in successful"})
@@ -136,6 +137,8 @@ def orders_view(orderid):
 @app.route("/api/v1/logout", methods=['GET']) #logout endpoint
 def logout():
     """route for logging out"""
+    # remove the username from the session
+    session.pop('username', None)
     return jsonify({"message":"successful logout"})
 
 if __name__ == '__main__':
