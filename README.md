@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #Endpoints
 [![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
+=======
+>>>>>>> ac411ede5a2c6b6e8fe6638d3a0d247c1bf07eed
 
-git clone $ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
+[![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
+
+# Endpoints
+
+$ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
 
 # Addition files
 
