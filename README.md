@@ -1,4 +1,5 @@
 #Endpoints
+[![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
 
 git clone $ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
 
