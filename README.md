@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 #Endpoints
 [![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
-=======
->>>>>>> ac411ede5a2c6b6e8fe6638d3a0d247c1bf07eed
+[![Coverage Status](https://coveralls.io/repos/github/Simbadeveloper/Fast-Food-Fast.io/badge.svg)](https://coveralls.io/github/Simbadeveloper/Fast-Food-Fast.io)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1333f01f9415bd674e32/maintainability)](https://codeclimate.com/github/Simbadeveloper/Fast-Food-Fast.io/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1333f01f9415bd674e32/test_coverage)](https://codeclimate.com/github/Simbadeveloper/Fast-Food-Fast.io/test_coverage)
 
-[![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
-
-# Endpoints
-
-$ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
+ $ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
 
 # Addition files
 
