@@ -1,4 +1,4 @@
-#Endpoints
+
 [![Build status](https://travis-ci.org/Simbadeveloper/Fast-Food-Fast.io.svg?branch=feature-endpoints)](https://travis-ci.org/Simbadeveloper)
 [![Coverage Status](https://coveralls.io/repos/github/Simbadeveloper/Fast-Food-Fast.io/badge.svg)](https://coveralls.io/github/Simbadeveloper/Fast-Food-Fast.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1333f01f9415bd674e32/maintainability)](https://codeclimate.com/github/Simbadeveloper/Fast-Food-Fast.io/maintainability)
