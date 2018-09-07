@@ -49,7 +49,7 @@ Endpoint                          | description         | Method
 ----------------------------------|---------------------|--------
 /api/v1/                          | Home                | GET
 /api/v1/auth/signup               |signup               | POST
-/api/v1/auth/confirmation         | get a specific ride | GET
+/api/v1/auth/confirmation         | Confirm a user      | GET
 /api/v1/v1/auth/login             | login a user        | POST
 /api/v1/auth/admin                | admin route alone   | POST
 /api/v1/auth/user/<name>          | Guest user /admin   | POST
