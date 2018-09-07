@@ -56,7 +56,7 @@ Endpoint                          | description         | Method
 /api/v1/auth/guest/<guest>        | Guest route         | GET
 /api/v1/auth/forgetpassword       | Retrieve a passwor  | GET
 /api/v1/account                   |Details of a user    | GET
-/api/v1/order                     | Make an an order    | POST
+/api/v1/order                    | Make an an order    | POST
 /api/v1/order/<int:orderid>       | Delete an order     |DELETE
  /api/v1/order/<int:orderid>      | Modify an order     | PUT
  /api/v1/order/                   |Get all orders made  | GET
