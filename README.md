@@ -39,9 +39,27 @@ https://www.getpostman.com/collections/12c4ea47a629178e16c1 <br>
 i test my endpoints using postman<br>
 
 
+* copy the given url(http://127.0.0.1:5000/) and post it on postman
 
-# Run application
- 
+### Endpoints
 
-$ python Fast_Food_Fast.py <br>
-the above command will run the python file<br>
+* To test the endpoints, from the table bellow, copy the endpoint and add it to the url.
+
+Endpoint                          | description         | Method
+----------------------------------|---------------------|--------
+/api/v1/                          | Home                | GET
+/api/v1/auth/signup               |signup               | POST
+/api/v1/auth/confirmation         | get a specific ride | GET
+/api/v1/v1/auth/login             | login a user        | POST
+/api/v1/auth/admin                | admin route alone   | POST
+/api/v1/auth/user/<name>          | Guest user /admin   | POST
+/api/v1/auth/guest/<guest>        | Guest route         | GET
+/api/v1/auth/forgetpassword       | Retrieve a passwor  | GET
+/api/v1/account                   |Details of a user    | GET
+/api/v1/order                     | Make an an order    | POST
+/api/v1/order/<int:orderid>       | Delete an order     |DELETE
+ /api/v1/order/<int:orderid>      | Modify an order     | PUT
+ /api/v1/order/                   |Get all orders made  | GET
+ /api/v1/order/<int:orderid>      | Get a specific order|GET
+ /api/v1/logout                   | logout              |GET
+
