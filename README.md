@@ -3,6 +3,12 @@
 [![Coverage Status](https://coveralls.io/repos/github/Simbadeveloper/Fast-Food-Fast.io/badge.svg)](https://coveralls.io/github/Simbadeveloper/Fast-Food-Fast.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1333f01f9415bd674e32/maintainability)](https://codeclimate.com/github/Simbadeveloper/Fast-Food-Fast.io/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1333f01f9415bd674e32/test_coverage)](https://codeclimate.com/github/Simbadeveloper/Fast-Food-Fast.io/test_coverage)
+[![Build status](https://ci.appveyor.com/api/projects/status/mx1qjmm4icbt308l/branch/master?svg=true)](https://ci.appveyor.com/project/Simbadeveloper/fast-food-fast-io/branch/master)
+[ ![Codeship Status for Simbadeveloper/Fast-Food-Fast.io](https://app.codeship.com/projects/8cf12870-9463-0136-1cf0-0a2ae3ab87c0/status?branch=master)](https://app.codeship.com/projects/304674)
+[![GitHub issues](https://img.shields.io/github/issues/Simbadeveloper/Fast-Food-Fast.io.svg)](https://github.com/Simbadeveloper/Fast-Food-Fast.io/issues)
+
+[![GitHub license](https://img.shields.io/github/license/Simbadeveloper/Fast-Food-Fast.io.svg)](https://github.com/Simbadeveloper/Fast-Food-Fast.io/blob/master/LICENSE)
+
 
  $ git clone https://github.com/Simbadeveloper/Fast-Food-Fast.io.git
 
