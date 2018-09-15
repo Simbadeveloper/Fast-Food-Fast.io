@@ -19,6 +19,6 @@ install:
 
 scripts:
 
-  - pytest  test_Fast_Food_Fast.py --cov=test_Fast_Food_Fast
+  - python  test_Fast_Food_Fast.py 
 
 after_success: coveralls
