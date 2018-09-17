@@ -1,14 +1,14 @@
 language: python
 
 python:
-  -'3.4'
-  -'3.6'
+
+  -"3.6"
 
 install:
   - pip install -r requirements.txt
   - pip install coverage
 
 scripts:
-  -pytest test_Fast_Food_Fast.py --cov=test_Fast_Food_Fast
+  -python test_Fast_Food_Fast.py 
 
 after_success: coveralls
