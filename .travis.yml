@@ -9,4 +9,6 @@ install:
  
 
 script:
-   pytest Endpoints/ 
+   pytest Endpoints/ --cov=test_Fast_Food_Fast
+
+after_success:coveralls
