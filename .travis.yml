@@ -8,5 +8,5 @@ install:
   -  "pip install -r requirements.txt"
  
 
-scripts:
-  -  pytest test_Fast_Food_Fast.py
+script:
+   pytest Endpoints/
