@@ -5,10 +5,8 @@ python:
   - "3.6"
 
 install:
-  - pip install -r requirements.txt
-  - pip install coverage
+  -  "pip install -r requirements.txt"
+ 
 
 scripts:
-  -pytest 
-
-after_success: coveralls
+  -  pytest test_Fast_Food_Fast.py
