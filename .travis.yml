@@ -1,24 +1,17 @@
 language: python
 
-
 python:
 
-   -'3.4'
-  -'3.6'
-
-
-
-
-
+  - "3.6"
 
 install:
+  -  "pip install -r requirements.txt"
+  -  pip install coveralls
+  -  pip install coverage
+  
+ 
 
-  - pip install -r requirements.txt
-  - pip install coverage
+script:
+   pytest Endpoints/ --cov=test_Fast_Food_Fast
 
-
-scripts:
-
-  - python test_Fast_Food_Fast.py
-
-after_success: coveralls
+after_success:coveralls
