@@ -1,0 +1,76 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url(front.jpg);
+    background-size: cover;
+    background-color: aqua;
+}
+
+header{
+    background-color: brown;
+    height:20px;
+    width:100%;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+
+}
+
+.header a:hover {
+    background-color:orange; /* Add a hover color */
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 45;
+    margin-right: 45;
+}
+.container{
+font-size:16px;     
+margin-top:5%;
+opacity:1;
+margin-left:30%;
+margin-right:30%;
+text-align:center;
+background-color:brown;
+padding: 15px 15px;
+border-radius:20px;
+}
+
+section{
+    height:200px;
+    width:100%;
+    padding-top: auto;
+    padding-right:50px; 
+    padding-left:50px;
+    padding-bottom:auto;
+}
+
+
+p{
+    color:aqua;
+    text-transform: capitalize;
+     margin: 0px 50px 0px 50px;
+     padding:2px 2px;
+     background-color:black;
+}
+
+h1{
+    color:black;
+}
+
+h2{
+    color:green;
+    margin: 20px 50px;
+}
+table{
+    margin-left: 40px;
+    padding:0;
+    height:100%;
+}
+
+table th{
+    color:green;
+}
