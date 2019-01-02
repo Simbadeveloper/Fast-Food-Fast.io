@@ -1,0 +1,71 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url(soup.jpg);
+    background-size: cover;
+    background-color: aqua;
+}
+
+header{
+    background-color: brown;
+    height:20px;
+    width:100%;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+
+}
+
+.header a:hover {
+    background-color: #000; /* Add a hover color */
+    text-decoration: none;
+}
+
+.container{
+    background-color:brown;
+    margin-left: 45;
+    margin-right: 45;
+}
+.container{
+font-size:16px;     
+margin-top:5%;
+
+
+opacity:0.8;
+margin-left:30%;
+margin-right:30%;
+text-align:center;
+background-color:brown;
+
+padding: 15px 15px;
+border-radius:10px;
+}
+
+section{
+    height:200px;
+    width:100%;
+    padding-top: auto;
+    padding-bottom:auto;
+}
+
+
+p{
+    color:aqua;
+    text-transform: capitalize;
+    margin: 25px 50px 75px 100px;
+}
+
+h1{
+    color:black;
+}
+table{
+    margin-left: 40px;
+    padding:0;
+    height:100%;
+}
+
+table th{
+    color:blue;
+}
