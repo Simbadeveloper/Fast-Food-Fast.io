@@ -65,7 +65,7 @@ psycopg2==2.7.5
 ptpython==0.41
 py==1.5.4
 pycodestyle==2.4.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.4.2
 pylint==2.1.1
 pyquery==1.4.0
